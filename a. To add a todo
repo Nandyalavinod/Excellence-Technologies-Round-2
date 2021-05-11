@@ -1,0 +1,17 @@
+<script src="https://unpkg.com/vue"></script>
+
+<div id="todoApp">
+  <h3> {{message}} </h3>
+  <form name="todo-form" method="post" action="">
+    <input name="add-todo" type="text" />
+    <button type="submit">Add</button>
+  </form>
+</div>
+java script
+var todoApp = new Vue({
+  el: '#todoApp',
+  data: {
+    message: 'Welcome to Todo App',
+  }
+})
+   
